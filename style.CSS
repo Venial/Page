@@ -1,0 +1,22 @@
+h1{color: #0099cc;}
+
+.negrita{font-weight:bold;}
+
+#navegacion{float: left; width: 20%; margin-left: 5%;  margin-right: 10%}
+img{
+	width:100%;
+}
+
+#contenido{float: right; background-color: #d6d6c2; width: 60%; margin-right: 5%}
+
+div{background-color: #e1e1d0}
+
+html{background-color: #ebebe0}
+
+#centrado{text-align: center; font-size: 30px; text-decoration: underline; color: #ff3333}
+
+#formacion{text-decoration: underline; text-align: center;}
+
+.titulo{font-weight: bold; font-size: 15px}
+
+.datos{font-size: 18px}
