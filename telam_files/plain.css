@@ -1,0 +1,254 @@
+h1, h2, h3, h4, h5, h6 { font-family:'Open Sans', sans-serif;}
+
+.note-module h2 { font-weight:600; font-size:2.5em; line-height:1.1em;}
+.note-module h3 { font-weight:600; font-size:1.8em; }
+.head-content h2 { line-height:1.2em;}
+
+.main-section .wrapper-cols > .note-module h2 { font-size:3em; line-height:1.1em;}
+.double-block .note-module h3 {font-size:1.8em;}
+
+.latest-videos .main-video h3 { font-weight:600;}
+.highlighted h2 {font-weight:600;}
+.highlighted-module h2 { font-family:'Open Sans', sans-serif; font-weight:600; text-align:center; font-size:5em; }
+
+.five-column-block .note-module h3 { font-size:1.6em;}
+.wrap-image-gallery .image-gallery .bx-wrapper .bx-caption {font-size:1.8em;}
+.what-happens .overlay h4 { font-weight:100;}
+
+.special-module .note-module h3 {font-size:1.8em; }
+.special-module .head h3 {font-family:'Open Sans', sans-serif; }
+.sidebar-module .note-module h3 {font-size:1.8em; }
+
+p { font-size:1.5em; font-weight:400; }
+.wrap-blockquote blockquote p { font-family:'Open Sans', sans-serif; font-weight:400;}
+.wrap-blockquote blockquote span { font-family:'Open Sans', sans-serif; font-weight:400;}
+.footer-nav li a { font-family:'Open Sans', sans-serif; }
+
+ul.list-items p { font-size:1.3em;}
+.wrap-image-gallery .image-gallery .bx-wrapper .bx-caption span h2 { font-family:'Open Sans', sans-serif;}
+.editable-content blockquote p, .content-resumen blockquote p { font-family:'Open Sans', sans-serif;}
+header {
+	background: rgba(246,246,246,1);
+	background: -moz-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(229,229,229,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(246,246,246,1)), color-stop(100%, rgba(229,229,229,1)));
+	background: -webkit-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(229,229,229,1) 100%);
+	background: -o-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(229,229,229,1) 100%);
+	background: -ms-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(229,229,229,1) 100%);
+	background: linear-gradient(to bottom, rgba(246,246,246,1) 0%, rgba(229,229,229,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#e5e5e5', GradientType=0 );
+	padding:0 0 10px;
+}
+
+.header-superior { 
+	background:#FFF; 
+	margin-bottom:20px; 
+	border-bottom:1px solid #CCCCCC;
+	-webkit-box-shadow: 0px 1px 0px 1px rgba(238,238,238,1);
+	-moz-box-shadow: 0px 1px 0px 1px rgba(238,238,238,1);
+	box-shadow: 0px 1px 0px 1px rgba(238,238,238,1);
+}
+.top-head ul li a {color:#000; font-weight:700;}
+.top-head ul.lang { float:left; width:auto;}
+.main-head .logo { width:194px; height:65px; margin:0 auto; float:none; }
+
+
+.main-nav .main-box > li > a {font-family:'Open Sans', sans-serif; line-height:2.5em; font-weight:300;}
+.alert p { font-family:'Open Sans', sans-serif; font-weight:400; padding:0 10px;}
+
+.general-info { }
+.general-info .weahter { font-size:1em; top:-3px; padding:4px 0 15px 32px; height:20px;}
+.general-info .weahter a { font-weight:400; }
+
+.general-info {margin:0 auto; width:100%; text-align: center; color:#000; }
+.general-info p {font-size:1em;}
+.general-info p:after { padding:0 0 0 7px; }  
+
+.wrapper-footer {
+	background: rgba(196,196,196,1);
+	background: -moz-linear-gradient(top, rgba(196,196,196,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(196,196,196,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(196,196,196,1) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(196,196,196,1) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(196,196,196,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(196,196,196,1) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#ffffff', GradientType=0 );
+}
+
+/*MOD Desplegables servicios y Herramientas */
+.languages-menu, .services-menu {
+	-webkit-box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.2);
+}
+.languages-menu { min-width:150px; top:27px; }
+.languages-menu li, .services-menu li { float:none  !important; }
+.services-menu { right:-16px; }
+
+.special-module {background-color:#EEEEEE;}
+.special-module .head { border-bottom:1px solid #FFF;}
+/*MOD Grilla Podcasts - Portada */
+.three-column-block { margin: 0; }
+.three-column-block > ul {
+	background: url("../img/dashed_x.png") top left repeat-x;
+	padding: 10px 0 0; 
+	}
+	
+.three-column-block > ul:first-child {
+	background:none;
+	padding-top:0;
+	}
+.three-column-block ul li {
+	margin:0;
+	float:left;
+	width:317px;
+}
+.three-column-block ul li:first-child {
+	margin:0 8px 0 0;
+}
+.three-column-block ul li:last-child {
+	margin:0 0 0 8px;
+}
+.three-column-block .clraudio {
+	margin-top:15px;
+}
+
+.three-column-block ul li .image {
+	max-height:175px;
+	overflow:hidden;
+}
+
+/* Wrapper RSS */
+
+.wrapper-rss li {
+	border-bottom:1px solid #CCC;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	font-size:1.4em;
+	width:100%;
+	float:left;
+}
+.wrapper-rss li:last-child {
+	border-bottom:none;
+}
+.wrapper-rss li span {
+	font-weight:600;
+	float:left;
+	min-width:25%;
+	padding-right:20px
+}
+
+/* Paginator */
+.paginator ul li a {
+	border-radius:3px;
+	font-weight:normal;
+}
+
+.datafactory iframe {border:none; max-height:135px !important; overflow:hidden; }
+/* CLIMA */
+.clima .reference li { margin: 0 30px 20px 0; padding-left:50px; width:210px; }
+
+.clima .reference li.despejado { background-position:0px -141px; line-height:3.8em;}
+.clima .reference li.algo-nublado { background-position:0px -180px; line-height:3.8em;}
+.clima .reference li.parcial-nublado { background-position:0px -225px; line-height:3.8em;}
+.clima .reference li.lluvia-llovizna { background-position:0 -715px; line-height:3.8em; }
+.clima .reference li.lluvioso { background-position:0 -510px; line-height:3.8em; }
+.clima .reference li.nieve { background-position:0 -633px; line-height:3.8em;}
+.clima .reference li.llovizna { background-position:0 -550px; line-height:3.8em;}
+.clima .reference li.nieve-sol { background-position:0 -673px; line-height:3.8em; }
+.clima .reference li.nub-aumento { background-position:0 -345px; line-height:3.8em;}
+.clima .reference li.nub-disminucion { background-position:0 -593px; line-height:3.8em;}
+.clima .reference li.nublado { background-position:0 -306px; line-height:3.8em;}
+.clima .reference li.inestable-lluvia { background-position:0 -428px;}
+.clima .reference li.inestable { background-position:0 -885px; line-height:3.8em; }
+.clima .reference li.tormenta-sol {background-position:0 -471px; line-height:3.8em;}
+.clima .reference li.nub-variable {background-position:0 -268px; line-height:3.8em;}
+.clima .reference li.ventoso { background-position:0 -838px; line-height:3.8em;}
+.clima .reference li.desmejorando {background-position:0 -268px; line-height:3.8em;}
+.clima .reference li.mejorando { background-position:0px -98px; line-height:3.8em;}
+
+.ico-small.despejado { background-position:0px -135px;}
+.ico-small.algo-nublado { background-position:0px -180px;}
+.ico-small.parcial-nublado { background-position:0px -225px;}
+.ico-small.lluvia-llovizna { background-position:0 -715px; }
+.ico-small.lluvioso { background-position:0 -510px; }
+.ico-small.nieve { background-position:0 -633px;}
+.ico-small.llovizna { background-position:0 -550px;}
+.ico-small.nieve-sol { background-position:0 -673px; }
+.ico-small.nub-aumento { background-position:0 -345px;}
+.ico-small.nub-disminucion { background-position:0 -593px;}
+.ico-small.nublado { background-position:0 -306px;}
+.ico-small.inestable-lluvia { background-position:0 -428px;}
+.ico-small.inestable { background-position:0 -885px; }
+.ico-small.tormenta-sol {background-position:0 -471px;}
+.ico-small.nub-variable {background-position:0 -268px;}
+.ico-small.ventoso { background-position:0 -838px;}
+.ico-small.desmejorando {background-position:0 -268px;}
+.ico-small.mejorando { background-position:0 -100px;}
+.ico-small { height:40px; }
+
+.ico-big.despejado { background-position:-324px 0;}
+.ico-big.algo-nublado { background-position:-162px 0;}
+.ico-big.parcial-nublado { background-position:-244px 0;}
+.ico-big.lluvia-llovizna { background-position:-1215px 0; }
+.ico-big.lluvioso { background-position:-1px 0; }
+.ico-big.nieve { background-position:-973px 0;}
+.ico-big.llovizna { background-position:-810px 0;}
+.ico-big.nieve-sol { background-position:-1134px 0; }
+.ico-big.nub-aumento { background-position:-729px 0;}
+.ico-big.nub-disminucion { background-position:-1053px;}
+.ico-big.nublado { background-position:-162px 0;}
+.ico-big.inestable-lluvia { background-position:-404px 0;}
+.ico-big.inestable { background-position:-244px 0; }
+.ico-big.tormenta-sol {background-position:-892px 0;}
+.ico-big.nub-variable {background-position:-486px 0;}
+.ico-big.ventoso { background-position:-1539px 0;}
+.ico-big.desmejorando {background-position:-729px 0;}
+.ico-big.mejorando {background-position:-1053px 0;}
+
+.ico-big { width:80px; height:80px; margin-right:10px;}
+
+ul.list-items.opinion p { font-size:1.5em !important;}
+ul.list-items.opinion p span { font-weight:600;}
+
+/* Interna */
+.head-section { padding:0 0 20px 0; margin:20px 0 30px; }
+.head-content { padding-bottom:30px;}
+.head-content .data p { font-size:1.2em;}
+
+.radio-module-wide .programa .fa {margin-left:10px;}
+.cobertura-vivo { display:block;}
+
+
+
+/* Radio */
+.slider-radio .overlay .info a { text-decoration:none; color:#FFF;}
+.four-block-module .block .info h3 { font-weight:400; font-size:1.4em; }
+
+.four-block-module .block .image {max-height:131px; overflow:hidden; }
+
+/* Video */
+.video-list .image {max-height:97px; overflow:hidden; }
+
+
+@media (max-width: 700px) {
+	.main-box { padding:0;}
+	.cobertura-vivo { border-bottom:none;}
+	.cobertura-vivo .icon { width:120px; padding:10px; height:44px;}
+	.cobertura-vivo .text { width:auto; float:left; margin:0; padding:0; height:44px;} 
+	.cobertura-vivo .text p { height:auto; padding:13px 10px; font-weight:300; font-size:1.6em;}
+	
+	.cobertura-update .main-box { padding:0 !important;}
+	.cobertura-update .icon { width:160px; padding:10px; }
+	.cobertura-update .info { padding:7px 7px 0 7px; float:left;}
+	.cobertura-update .info p { font-size:1.2em;}
+	.main-content-block.podcast { display:none; }
+	
+}
+
+
+
+
+
+
+
+
